@@ -1,0 +1,47 @@
+<html>
+    <head><title>Nested lists</title></head>
+    <body>
+        <h1>Task:</h1>
+        <p><h3>Create a Nested like below:</h3> 
+        A <br>
+        B <br> 
+        ----1.B1 <br>
+        ----2.B2 <br>
+        ---------B2A <br>
+        ----------------B2aa <br>
+        ----------------B2ab <br>
+        ---------B2B <br>
+        ---------B2C <br>
+        ----3.B3 <br>
+        ---------1.B31 <br>
+        ---------2.B32 <br>
+        C
+        </p>
+        <hr>
+        <h2>Solution:</h2>
+        <ul>
+            <li>A</li>
+            <li>B</li>
+                <ol>
+                    <li>B1</li>
+                    <li>B2</li>
+                    <ul>
+                        <li>B2a</li>
+                        <ul>
+                            <li>B2aa</li>
+                            <li>B2ab</li>
+                        </ul>
+                        <li>B2b</li>
+                        <li>B2c</li>
+                    </ul>
+                    <li>B3</li>
+                    <ol>
+                        <li>B31</li>
+                        <li>B32</li>
+                    </ol>
+                </ol>
+            <li>C</li>
+        </ul>
+    </body>
+
+</html>
